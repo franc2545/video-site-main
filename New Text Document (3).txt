@@ -1,0 +1,14 @@
+let balance = 0;
+function earnMoney() {
+  balance += 50;
+  document.getElementById("balance").innerText = "Balance: Ksh " + balance;
+}
+function withdraw() {
+  if (balance >= 1000) {
+    alert("Withdrawal requested!");
+    balance = 0;
+    document.getElementById("balance").innerText = "Balance: Ksh " + balance;
+  } else {
+    alert("Minimum withdrawal is Ksh 1000");
+  }
+}

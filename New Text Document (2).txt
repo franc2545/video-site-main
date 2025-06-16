@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.sidebar {
+  width: 200px;
+  background-color: #1e1e2f;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+.sidebar h2 {
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 20px 0;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background: #f4f4f4;
+}

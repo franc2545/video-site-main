@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Earning Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#withdraw">Withdraw</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <h1>Welcome onboard Michael</h1>
+    <section id="videos">
+      <h2>Watch Videos</h2>
+      <video width="320" height="240" controls>
+        <source src="video1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="earnMoney()">Mark as Watched</button>
+      <div id="balance">Balance: Ksh 0</div>
+    </section>
+    <section id="products">
+      <h2>Products</h2>
+      <ul>
+        <li>Product A - Description</li>
+        <li>Product B - Description</li>
+      </ul>
+    </section>
+    <section id="withdraw">
+      <h2>Withdraw</h2>
+      <button onclick="withdraw()">Request Withdrawal</button>
+    </section>
+    <section id="profile">
+      <h2>Profile Info</h2>
+      <p>Name: Michael</p>
+      <p>Email: franciske.waweru@brisk-credit.org</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
